@@ -1,0 +1,12 @@
+{
+	"name": "better-hire-me",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node better-hire-me.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"winston": "3.2.1"
+	}
+}
