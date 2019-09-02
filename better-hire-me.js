@@ -48,6 +48,7 @@ class Main{
 				wordService.checkWordAndAdd(word, resultArray);
 		}
 
+		console.log('My score is ' + ((resultArray.toString().length)-(resultArray.length-1)));
 		file.writeResult(aResultPath, resultArray.join('\r\n'));	
 	}
 }
